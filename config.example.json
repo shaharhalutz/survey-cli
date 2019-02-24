@@ -1,0 +1,10 @@
+{
+    "aws":{
+        "AwsAccessKeyId" : "MY_AWS_ACCESS_KEY_ID",
+        "AwsSecretAccessKey" : "MY_AWS_SECRET_ACCESS_KEY"
+    },
+    "notification":{
+        "URL" : "https://hujipsych.au1.qualtrics.com/jfe/form/SV_1EXjhjeg9csNDSt",
+        "message" : "Please click 'visit' to reach the survey page. \nthis survay will be active for the next 4 hours."
+    }
+}
