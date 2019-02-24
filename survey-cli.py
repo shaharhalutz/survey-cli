@@ -45,7 +45,9 @@ def push(filename):
         not_sent.append(token)
         
     logging.info("pushed successfuly : %s" % str(len(sent) ))
-    #logging.debug("users which were not sent to : %s" % str(len(sent) ))
+
+    if len(not_sent):
+      logging.error("error sending to : {}".format(' '.join(map(str, not_sent))))
 
 
 
